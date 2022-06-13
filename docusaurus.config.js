@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Everlast Brands Developer Documentation",
   tagline: "If you find it not above look beneath.",
-  url: "https://docs.everlastbrands.dev",
+  url: "https://eb-docs.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
