@@ -34,9 +34,13 @@ Return all products regardless of status.
         "color": "DARK BROWN",
         "linkedProducts": [],
         "isSpecialOrder": false,
+        "isPhoneOrderOnly": false,
+        "isOutOfStock": false,
+        "hidePrice": false,
         "cost": 0,
         "pricing": [],
-        "slug": "roof-to-wall"
+        "slug": "roof-to-wall",
+        "baseProductId": "adkjfasdkjfals"
       },
       {...}
     ]
