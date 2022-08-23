@@ -1,4 +1,4 @@
-# POST Cancel Business Credit Public
+# PUT Cancel Business Credit Public
 
 | verb       | path                                           |
 | ---------- | ---------------------------------------------- |
