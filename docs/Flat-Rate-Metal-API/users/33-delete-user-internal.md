@@ -1,4 +1,4 @@
-# POST Create Business User Internal
+# DELETE Business User Internal
 
 Use this method to allow company admins to delete users.
 
