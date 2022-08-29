@@ -22,8 +22,8 @@ Primary frontend library for building user interfaces. On internal projects such
 
 Best Practices For:
 
-- [Data Fetching](/docs/everlast-brands-best-practices/data-fetching)
-- [State Management](/docs/everlast-brands-best-practices/data-fetching)
+- [Data Fetching](/docs/dev-best-practice-docs/data-fetching)
+- [State Management](/docs/dev-best-practice-docs/data-fetching)
 
 ### NextJS
 
