@@ -22,8 +22,8 @@ Primary frontend library for building user interfaces. On internal projects such
 
 Best Practices For:
 
-- [Data Fetching](/docs/everlast-brands-best-practices/data-fetching)
-- [State Management](/docs/everlast-brands-best-practices/data-fetching)
+- [Data Fetching](/docs/dev-best-practice-docs/data-fetching)
+- [State Management](/docs/dev-best-practice-docs/state-management)
 
 ### NextJS
 
@@ -35,6 +35,6 @@ Framework for ReactJS.
 
 Form creation library for React and React Native. Makes it simple to create complex forms.
 
-[Schema validation with Yup](/docs/everlast-brands-best-practices/form-validation)
+[Schema validation with Yup](/docs/dev-best-practice-docs/form-validation)
 
 ## Backend
