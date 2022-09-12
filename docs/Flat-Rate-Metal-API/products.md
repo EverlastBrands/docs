@@ -8,6 +8,10 @@
 | --------- | --------- | -------------- | --------- |
 | **`GET`** | /products | Pull           | Admin     |
 
+```JSON
+
+```
+
 ### Get All Products Public
 
 | Method    | Path             | Cache Behavior | User Role |
@@ -71,116 +75,116 @@
 
 ### Bulk Product Update
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path           | Cache Behavior | User Role |
+| --------- | -------------- | -------------- | --------- |
+| **`PUT`** | /products/bulk | Push & Pull    | Admin     |
 
 ### Batch Product Update
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                        | Cache Behavior | User Role |
+| --------- | --------------------------- | -------------- | --------- |
+| **`PUT`** | /products/batch-file-update | Push & Pull    | Admin     |
 
 ### Update Product by ID
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                 | Cache Behavior | User Role |
+| --------- | -------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId | Push & Pull    | Admin     |
 
 ### Update Sale Units by Product ID
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                           | Cache Behavior | User Role |
+| --------- | ------------------------------ | -------------- | --------- |
+| **`PUT`** | /products/:productId/sale-unit | Push & Pull    | Admin     |
 
 ### Toggle Coil Sell
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                                  | Cache Behavior | User Role |
+| --------- | ------------------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/toggle-coil-sell | Push & Pull    | Admin     |
 
 ### Toggle Special Order
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                                      | Cache Behavior | User Role |
+| --------- | ----------------------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/toggle-special-order | Push & Pull    | Admin     |
 
 ### Toggle Hide
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                             | Cache Behavior | User Role |
+| --------- | -------------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/toggle-hide | Push & Pull    | Admin     |
 
 ### Toggle Hide Price
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                                   | Cache Behavior | User Role |
+| --------- | -------------------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/toggle-hide-price | Push & Pull    | Admin     |
 
 ### Toggle Out of Stock
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                                     | Cache Behavior | User Role |
+| --------- | ---------------------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/toggle-out-of-stock | Push & Pull    | Admin     |
 
 ### Toggle Phone Order Only
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                                         | Cache Behavior | User Role |
+| --------- | -------------------------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/toggle-phone-order-only | Push & Pull    | Admin     |
 
 ### Toggle On Sale
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                                | Cache Behavior | User Role |
+| --------- | ----------------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/toggle-on-sale | Push & Pull    | Admin     |
 
 ### Link Products
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                      | Cache Behavior | User Role |
+| --------- | ------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/link | Push & Pull    | Admin     |
 
 ### Update Product Pricing
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Pull           | Admin     |
+| Method    | Path                                | Cache Behavior | User Role |
+| --------- | ----------------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/update-pricing | Pull           | Admin     |
 
 ### Update Product Images
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                        | Cache Behavior | User Role |
+| --------- | --------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/images | Push & Pull    | Admin     |
 
 ### Unlink Products
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                                           | Cache Behavior | User Role |
+| --------- | ---------------------------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/unlink/:unlinkedProductId | Push & Pull    | Admin     |
 
 ### Update Product Status
 
-| Method    | Path       | Cache Behavior | User Role |
-| --------- | ---------- | -------------- | --------- |
-| **`PUT`** | /products/ | Push & Pull    | Admin     |
+| Method    | Path                                | Cache Behavior | User Role |
+| --------- | ----------------------------------- | -------------- | --------- |
+| **`PUT`** | /products/:productId/status/:status | Push & Pull    | Admin     |
 
 ## DELETE
 
 ### Delete a Product
 
-| Method       | Path       | Cache Behavior | User Role |
-| ------------ | ---------- | -------------- | --------- |
-| **`DELETE`** | /products/ | Push & Pull    | Admin     |
+| Method       | Path                 | Cache Behavior | User Role |
+| ------------ | -------------------- | -------------- | --------- |
+| **`DELETE`** | /products/:productId | Push & Pull    | Admin     |
 
 ### Remove a Product Sale Unit
 
-| Method       | Path       | Cache Behavior | User Role |
-| ------------ | ---------- | -------------- | --------- |
-| **`DELETE`** | /products/ | Push & Pull    | Admin     |
+| Method       | Path                                       | Cache Behavior | User Role |
+| ------------ | ------------------------------------------ | -------------- | --------- |
+| **`DELETE`** | /products/:productId/sale-unit/:saleUnitId | Push & Pull    | Admin     |
 
 ### Remove Product Image
 
-| Method       | Path       | Cache Behavior | User Role |
-| ------------ | ---------- | -------------- | --------- |
-| **`DELETE`** | /products/ | Push & Pull    | Admin     |
+| Method       | Path                                | Cache Behavior | User Role |
+| ------------ | ----------------------------------- | -------------- | --------- |
+| **`DELETE`** | /products/:productId/image/:imageId | Push & Pull    | Admin     |
