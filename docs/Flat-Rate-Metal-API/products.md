@@ -42,6 +42,41 @@
 | --------- | -------------------------------------------- | -------------- | --------- |
 | **`GET`** | /products/base-product/:baseProductId/public | Pull           | All       |
 
+### Search Products
+
+| Method    | Path             | Cache Behavior | User Role |
+| --------- | ---------------- | -------------- | --------- |
+| **`GET`** | /products/search | Pull           | All       |
+
+| Query       | Description | Required |
+| ----------- | ----------- | -------- |
+| **`query`** | Search term | Required |
+| **`id`**    | User ID     | Optional |
+
+#### Example
+
+Request
+`https://frm-prod.everlastbrands.dev/frm-api/products/search?query=Steel Drip Edge&id=1234`
+
+<details>
+<summary>Example Response</summary>
+
+```json
+{
+  "data": {
+    "results": [
+      {
+        // ...product shape
+      },
+      ...
+    ],
+    "message": "Request Successful"
+  }
+}
+```
+
+</details>
+
 ## POST
 
 ### Create New Product
