@@ -62,7 +62,7 @@ Entity that stores product ID and location ID along with quantity.
 | **`POST`** | /entries |
 
 <details>
-<summary>Request Body<summary>
+<summary>Request Body</summary>
 
 ```json
 {
