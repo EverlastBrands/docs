@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # Getting Started
 
+## Project Architecture
+
+![FRM Project Architecture](../../static/img/frm-architecture-diagram.jpg);
+
 ## Rest API Diagram
 
 This diagram expresses how data flows through the components of our backend system.
